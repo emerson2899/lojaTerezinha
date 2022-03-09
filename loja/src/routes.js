@@ -5,16 +5,18 @@ import { User } from "./pages/User/User";
 import { Home } from "./pages/Home/Home";
 import { isAuthenticated } from "./auth";
 
-const PrivateRoute = ({component: Component, ... rest}) =>{
-    <Route {... rest} render={props => (
+const PrivateRoute = ({component: Component, ...rest}) =>(
+    <Route {...rest} render={props => (
 
         isAuthenticated() ? (
-            <Component {... props} />
+            <Component {...props} />
         ) : (
-            <Redirect to={{ pathname: '/', state: {from: props.location}}} />
+            <Redirect to={{ pathname: '/', state: {from: props.location} }} />
         )
-    )}/>
+    )
 }
+/>
+);
 
 const Routes = () =>{
 
