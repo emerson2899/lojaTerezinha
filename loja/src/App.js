@@ -5,19 +5,22 @@ import {Route, Router, Switch, useHistory, Link} from 'react-router-dom';
 import { Products } from "./pages/Products/Products";
 import { User } from "./pages/User/User";
 import Routes from "./routes";
+import MenuItem from "./MenuItem";
+
 
 
 function App() {
   return (
    
-   <AreaGolobal>
-<Menu>
+   <Container>
+  <Menu>
  <Routes/>
- </Menu>
+  </Menu>
+  </Container>
 
 
 
-   </AreaGolobal>
+   
 
    
   );
