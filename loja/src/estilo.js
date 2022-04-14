@@ -26,3 +26,12 @@ height: 80px;`;
 
 export const Footer = styled.footer`
 `;
+
+export const MenuIcon = styled.a`
+
+`;
+
+export const LinkMenu = styled.img`
+
+
+`;

@@ -1,6 +1,6 @@
 import React from "react"
 import './App.css';
-import { AreaGolobal, Container, Menu, PageBody } from "./estilo";
+import { AreaGolobal, Container, Menu, PageBody, LinkMenu, MenuIcon } from "./estilo";
 import {Route, Router, Switch, useHistory, Link} from 'react-router-dom';
 import { Products } from "./pages/Products/Products";
 import { User } from "./pages/User/User";
