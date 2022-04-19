@@ -19,7 +19,7 @@ export const PageBody = styled.div`
 `;
 
 export const Menu = styled.div`
-background-color: #BC1EA9;
+background-color: darkviolet;
 display: inline-block;
 height: 100vh;
 width: 100px;
