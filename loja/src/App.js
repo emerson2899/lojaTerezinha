@@ -9,6 +9,7 @@ import MenuItem from "./MenuItem";
 import { Home } from "./pages/Home/Home";
 import Vendas from "./pages/Vendas/Vendas";
 import Clientes from "./pages/Clientes/Clientes";
+import Car from "./pages/Car/Car";
 
 
 
@@ -40,6 +41,9 @@ function App() {
       <li>
         <Link to='/User'>Perfil</Link>
       </li>
+      <li>
+        <Link to='/Car'>Carrinho</Link>
+      </li>
     </ul>
   </nav>
  
@@ -59,6 +63,7 @@ function App() {
       <Route component={Vendas} path='/Vendas' />
       <Route component={Clientes} path='/Clientes' />
       <Route component={User} path='/User' />
+      <Route component={Car} path='/Car'/>
 
 
       
