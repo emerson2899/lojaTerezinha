@@ -1,12 +1,14 @@
 import React from "react";
-import {Conteudo } from '../../estilo';
+import {Conteudo, Titulo } from '../../estilo';
 
 
  const Clientes = () =>{
 
     return(
         <>
-        <Conteudo>
+        <Conteudo>   
+        <Titulo> < h1 className="titulo">Loja</h1> <br/> </Titulo>        
+
         <h1>clientes</h1>
         </Conteudo>
         </>

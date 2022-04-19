@@ -3,7 +3,7 @@ import './App.css';
 import { AreaGolobal, Container, Menu, PageBody, LinkMenu, MenuIcon, Conteudo } from "./estilo";
 import {Route, Router, Switch, useHistory, Link, BrowserRouter} from 'react-router-dom';
 import { Products } from "./pages/Products/Products";
-import { User } from "./pages/User/User";
+import User from "./pages/User/User";
 
 import MenuItem from "./MenuItem";
 import { Home } from "./pages/Home/Home";
@@ -18,7 +18,9 @@ function App() {
 
   return (
     <div className="fundo">
+     
       <BrowserRouter>
+     
 <Menu>
   <nav>
     <ul>
@@ -36,10 +38,11 @@ function App() {
         <Link to='/Clientes'>Clientes</Link>
       </li> </div> }
       <li>
-        <Link></Link>
+        <Link to='/User'>Perfil</Link>
       </li>
     </ul>
   </nav>
+ 
 </Menu>
 
 
@@ -55,11 +58,14 @@ function App() {
       <Route component={Products} path='/Products' />
       <Route component={Vendas} path='/Vendas' />
       <Route component={Clientes} path='/Clientes' />
+      <Route component={User} path='/User' />
 
 
       
       
       </BrowserRouter> 
+     
+   
 
   </div>
 
