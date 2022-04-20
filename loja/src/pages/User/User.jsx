@@ -1,5 +1,5 @@
 import React from "react";
-import { Titulo, Conteudo } from "../../estilo";
+import { Titulo, Conteudo, Formulario } from "../../estilo";
 
 
 function User (){
@@ -9,10 +9,12 @@ function User (){
     <Conteudo>
     <Titulo> < h1 className="titulo">Loja</h1> <br/> </Titulo>
 
-    <h2>Faça seu login ou registre-se</h2>
+    <h2>Registre-se em nossa plataforma</h2>
 
-    <div>
-<form action="">
+    <Formulario>
+
+   
+<form action="cadastrar()">
     <label for="name">Nome Completo:</label> <br/>
     <input type="text"/> <br/>
     <label for="phone">Telefone:</label><br/>
@@ -25,9 +27,12 @@ function User (){
     <input type="date"/><br/>
     <label>Cadastre sua senha para acessar o portal</label><br/>
     
-    <input type="password"/>
+    <input type="password"/> <br/>
+    <button>Cadastrar</button>
 </form>
-    </div>
+</Formulario>
+    
+    
     </Conteudo>
     
     

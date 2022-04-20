@@ -41,3 +41,23 @@ code {
  a{
    text-decoration: none;
  }
+ input{
+   background-color: transparent;
+   color: #fff;
+   border: 1px solid #fff;
+   border-radius: 15px;
+ }
+form{
+  border: 1px solid #fff;
+  border-radius: 25px;
+  width: 25rem;
+  height: 25rem;
+}
+label{
+  color: #fff;
+}
+button{
+  margin-top: 9px;
+  border: 1px solid #fff;
+  border-radius: 25px;
+}

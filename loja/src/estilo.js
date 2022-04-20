@@ -23,7 +23,7 @@ background-color: darkviolet;
 display: inline-block;
 height: 100vh;
 width: 100px;
-margin-top: 5px;`;
+`;
 
 
 export const Footer = styled.footer`
@@ -50,4 +50,10 @@ margin-left: 120px;`;
 
 export const Titulo = styled.div`
 text-align: center;
+margin-top: 9px;
 color: #FFFFFF;`;
+
+export const Formulario = styled.div`
+margin-left: 25%;
+
+`;
