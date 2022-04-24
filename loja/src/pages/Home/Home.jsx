@@ -6,7 +6,7 @@ export const Home = () => {
     return(
         <>
         <Titulo> < h1 className="titulo">Loja</h1> <br/> </Titulo>
-        <h3>Home</h3>
+        <h3>Home3</h3>
         </>
     );
 }
