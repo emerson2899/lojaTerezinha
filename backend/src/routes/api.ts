@@ -7,5 +7,12 @@ router.get('/ping', (req,res) =>{
 
 });
 
+router.get('/random', (req,res)=>{
+    let nRandom: number = Math.floor(Math.random()*10);
+    res.json({number: nRandom})
+})
+
+
+
 export default router
 

@@ -4,14 +4,17 @@ import mustache from 'mustache-express';
 import dotenv from 'dotenv';
 import mainRoutes from './routes/index';
 import apiRoutes from './routes/api';
+import {mongoConnect} from './dataBase/mongo'
 
 dotenv.config();
 
+mongoConnect();
+
 const server = express();
-/*server.get('/',(req: Request, res: Response) =>{
+server.get('/',(req: Request, res: Response) =>{
     res.send('Olá mundo');
 }
-)*/
+)
 /*
 server.set('view engine', 'mustache');
 server.set('views', path.join(__dirname, 'views'));
