@@ -55,5 +55,11 @@ color: #FFFFFF;`;
 
 export const Formulario = styled.div`
 margin-left: 25%;
+`;
 
+export const GradeDescription = styled.div`
+width: 28%;
+border: 1px solid;
+display: inline-block;
+margin: 2rem;
 `;
